@@ -1,0 +1,221 @@
+2019-12-19 10:59:39.570  INFO 44740 --- [main] c.y.ez.eureka.EzEurekaApplicationTests   : The following profiles are active: prod
+2019-12-19 10:59:41.544  WARN 44740 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-19 10:59:42.193  INFO 44740 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3ea92b44-fef3-34c8-8358-60b858038f9e
+2019-12-19 10:59:43.576  INFO 44740 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f18938a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 10:59:44.169  WARN 44740 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-19 10:59:44.169  INFO 44740 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-19 10:59:44.216  INFO 44740 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6f6c6077
+2019-12-19 10:59:47.213  INFO 44740 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50b0afd7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b1ec694, org.springframework.security.web.header.HeaderWriterFilter@6c184d4d, org.springframework.security.web.authentication.logout.LogoutFilter@21c747a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@79d3473e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f34907b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9b5f3c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@468173fa, org.springframework.security.web.session.SessionManagementFilter@20ead579, org.springframework.security.web.access.ExceptionTranslationFilter@66223d94, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fc7c734]
+2019-12-19 10:59:48.233  WARN 44740 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2019-12-19 10:59:48.234  WARN 44740 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-19 10:59:48.234  INFO 44740 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-19 10:59:49.395  INFO 44740 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 10:59:55.638  WARN 44740 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-19 10:59:56.081  INFO 44740 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-12-19 10:59:56.172  INFO 44740 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-12-19 10:59:56.178  INFO 44740 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-12-19 10:59:56.197  INFO 44740 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1576724396196 with initial instances count: 0
+2019-12-19 10:59:56.370  INFO 44740 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-12-19 10:59:56.375  INFO 44740 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://yedp:5022ydp@172.16.0.5:9000/eureka/]
+2019-12-19 10:59:57.353  INFO 44740 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-12-19 10:59:57.354  INFO 44740 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-12-19 10:59:57.354  INFO 44740 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-12-19 10:59:57.354  INFO 44740 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-12-19 10:59:57.777  INFO 44740 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://yedp:5022ydp@172.16.0.5:9000/eureka/
+2019-12-19 10:59:57.794  INFO 44740 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-12-19 10:59:57.795  INFO 44740 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-12-19 10:59:58.194  INFO 44740 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-19 10:59:58.329  INFO 44740 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-12-19 10:59:58.331  INFO 44740 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-12-19 10:59:58.332  INFO 44740 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-12-19 10:59:58.364  INFO 44740 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-12-19 10:59:58.365  INFO 44740 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-12-19 10:59:58.365  INFO 44740 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-12-19 10:59:58.365  INFO 44740 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-12-19 10:59:58.366  INFO 44740 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-12-19 10:59:58.371  INFO 44740 --- [main] c.y.ez.eureka.EzEurekaApplicationTests   : Started EzEurekaApplicationTests in 24.197 seconds (JVM running for 27.2)
+2019-12-19 10:59:58.378  INFO 44740 --- [Thread-11] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-12-19 10:59:58.836  INFO 44740 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UNKNOWN with eureka with status DOWN
+2019-12-19 10:59:58.841  INFO 44740 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-12-19 10:59:58.844  INFO 44740 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-12-19 10:59:58.850  INFO 44740 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-19 10:59:58.857  INFO 44740 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-12-19 10:59:58.858  INFO 44740 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-12-19 11:02:59.497  INFO 38360 --- [main] c.y.ez.eureka.EzEurekaApplicationTests   : The following profiles are active: prod
+2019-12-19 11:03:02.711  WARN 38360 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-19 11:03:03.322  INFO 38360 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3ea92b44-fef3-34c8-8358-60b858038f9e
+2019-12-19 11:03:04.794  INFO 38360 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f18938a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 11:03:05.566  WARN 38360 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-19 11:03:05.567  INFO 38360 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-19 11:03:05.611  INFO 38360 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4fc5563d
+2019-12-19 11:03:07.932  INFO 38360 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50b0afd7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b1ec694, org.springframework.security.web.header.HeaderWriterFilter@6c184d4d, org.springframework.security.web.authentication.logout.LogoutFilter@21c747a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@79d3473e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f34907b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9b5f3c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@468173fa, org.springframework.security.web.session.SessionManagementFilter@20ead579, org.springframework.security.web.access.ExceptionTranslationFilter@66223d94, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fc7c734]
+2019-12-19 11:03:08.776  WARN 38360 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2019-12-19 11:03:08.780  WARN 38360 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-19 11:03:08.788  INFO 38360 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-19 11:03:10.383  INFO 38360 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 11:03:18.134  WARN 38360 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-19 11:03:19.061  INFO 38360 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-12-19 11:03:19.211  INFO 38360 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-12-19 11:03:19.216  INFO 38360 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-12-19 11:03:19.235  INFO 38360 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1576724599234 with initial instances count: 0
+2019-12-19 11:03:19.387  INFO 38360 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-12-19 11:03:19.390  INFO 38360 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://yedp:5022ydp@ezmmm.com:9000/eureka/]
+2019-12-19 11:03:22.314  INFO 38360 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-12-19 11:03:22.315  INFO 38360 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-12-19 11:03:22.315  INFO 38360 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-12-19 11:03:22.315  INFO 38360 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-12-19 11:03:22.875  INFO 38360 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://yedp:5022ydp@ezmmm.com:9000/eureka/
+2019-12-19 11:03:22.897  INFO 38360 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-12-19 11:03:22.897  INFO 38360 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-12-19 11:03:23.301  INFO 38360 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-19 11:03:23.472  INFO 38360 --- [main] c.y.ez.eureka.EzEurekaApplicationTests   : Started EzEurekaApplicationTests in 26.957 seconds (JVM running for 28.498)
+2019-12-19 11:03:23.482  INFO 38360 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-12-19 11:03:23.483  INFO 38360 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-12-19 11:03:23.484  INFO 38360 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-12-19 11:03:23.505  INFO 38360 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-12-19 11:03:23.506  INFO 38360 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-12-19 11:03:23.506  INFO 38360 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-12-19 11:03:23.506  INFO 38360 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-12-19 11:03:23.506  INFO 38360 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-12-19 11:03:23.532  INFO 38360 --- [Thread-11] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-12-19 11:03:24.377  INFO 38360 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UNKNOWN with eureka with status DOWN
+2019-12-19 11:03:24.381  INFO 38360 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-12-19 11:03:24.386  INFO 38360 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-12-19 11:03:24.389  INFO 38360 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-19 11:03:24.393  INFO 38360 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-12-19 11:03:24.393  INFO 38360 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-12-19 11:15:12.224  INFO 37912 --- [main] com.ydp.ez.eureka.EzEurekaApplication    : The following profiles are active: prod
+2019-12-19 11:15:13.400  WARN 37912 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-19 11:15:13.633  INFO 37912 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=807136cd-a176-3939-bd6d-3e1adef0c55b
+2019-12-19 11:15:13.868  INFO 37912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c5f6291f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 11:15:14.189  INFO 37912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-12-19 11:15:14.203  INFO 37912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-19 11:15:14.203  INFO 37912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-19 11:15:14.383  INFO 37912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-19 11:15:14.383  INFO 37912 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2142 ms
+2019-12-19 11:15:14.511  WARN 37912 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-19 11:15:14.511  INFO 37912 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-19 11:15:14.527  INFO 37912 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1d9f0a5
+2019-12-19 11:15:16.452  INFO 37912 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-12-19 11:15:16.552  INFO 37912 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-12-19 11:15:16.553  INFO 37912 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-12-19 11:15:16.730  INFO 37912 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-12-19 11:15:16.731  INFO 37912 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-12-19 11:15:17.517  INFO 37912 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14ad42, org.springframework.security.web.context.SecurityContextPersistenceFilter@15edae0, org.springframework.security.web.header.HeaderWriterFilter@d172c7, org.springframework.security.web.authentication.logout.LogoutFilter@20b369, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@f7ae05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f480c6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9d7366, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8b906d, org.springframework.security.web.session.SessionManagementFilter@a09a5c, org.springframework.security.web.access.ExceptionTranslationFilter@8afc2d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@944c7c]
+2019-12-19 11:15:17.531  WARN 37912 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2019-12-19 11:15:17.532  WARN 37912 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-19 11:15:17.532  INFO 37912 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-19 11:15:17.720  INFO 37912 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 11:15:19.445  WARN 37912 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-19 11:15:19.536  INFO 37912 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-12-19 11:15:19.589  INFO 37912 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-12-19 11:15:19.589  INFO 37912 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-12-19 11:15:19.601  INFO 37912 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1576725319600 with initial instances count: 0
+2019-12-19 11:15:19.650  INFO 37912 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-12-19 11:15:19.654  INFO 37912 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://yedp:5022ydp@ezmmm.com:9000/eureka/]
+2019-12-19 11:15:20.522  INFO 37912 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-12-19 11:15:20.523  INFO 37912 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-12-19 11:15:20.523  INFO 37912 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-12-19 11:15:20.523  INFO 37912 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-12-19 11:15:20.723  INFO 37912 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://yedp:5022ydp@ezmmm.com:9000/eureka/
+2019-12-19 11:15:20.735  INFO 37912 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-12-19 11:15:20.736  INFO 37912 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-12-19 11:15:20.760  INFO 37912 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-19 11:15:20.882  INFO 37912 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UNKNOWN with eureka with status UP
+2019-12-19 11:15:20.887  INFO 37912 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-12-19 11:15:20.887  INFO 37912 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-12-19 11:15:20.888  INFO 37912 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-12-19 11:15:20.993  INFO 37912 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-12-19 11:15:20.994  INFO 37912 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-12-19 11:15:20.994  INFO 37912 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-12-19 11:15:20.994  INFO 37912 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-12-19 11:15:20.994  INFO 37912 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-12-19 11:15:21.002  INFO 37912 --- [Thread-11] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-12-19 11:15:21.016  INFO 37912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-12-19 11:15:21.018  INFO 37912 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2019-12-19 11:15:22.170  INFO 37912 --- [main] com.ydp.ez.eureka.EzEurekaApplication    : Started EzEurekaApplication in 13.435 seconds (JVM running for 14.991)
+2019-12-19 11:15:43.728  INFO 37912 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-19 11:15:43.728  INFO 37912 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-19 11:15:43.737  INFO 37912 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-19 11:15:59.466  INFO 37912 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UNKNOWN with eureka with status DOWN
+2019-12-19 11:15:59.469  INFO 37912 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-12-19 11:15:59.470  INFO 37912 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-12-19 11:15:59.474  INFO 37912 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-19 11:15:59.476  INFO 37912 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-12-19 11:15:59.477  INFO 37912 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-12-19 11:16:09.603  INFO 37916 --- [main] com.ydp.ez.eureka.EzEurekaApplication    : The following profiles are active: prod
+2019-12-19 11:16:10.782  WARN 37916 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-19 11:16:11.018  INFO 37916 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=807136cd-a176-3939-bd6d-3e1adef0c55b
+2019-12-19 11:16:11.238  INFO 37916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c519e6a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 11:16:11.567  INFO 37916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-12-19 11:16:11.586  INFO 37916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-19 11:16:11.587  INFO 37916 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-19 11:16:11.767  INFO 37916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-19 11:16:11.767  INFO 37916 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2146 ms
+2019-12-19 11:16:11.908  WARN 37916 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-19 11:16:11.908  INFO 37916 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-19 11:16:11.921  INFO 37916 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@531172
+2019-12-19 11:16:13.908  INFO 37916 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-12-19 11:16:14.002  INFO 37916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-12-19 11:16:14.004  INFO 37916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-12-19 11:16:14.169  INFO 37916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-12-19 11:16:14.170  INFO 37916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-12-19 11:16:14.923  INFO 37916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f8036d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b38e6, org.springframework.security.web.header.HeaderWriterFilter@9cf657, org.springframework.security.web.csrf.CsrfFilter@18b3eb1, org.springframework.security.web.authentication.logout.LogoutFilter@17446d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@583a2d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4aff2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f69ca3, org.springframework.security.web.session.SessionManagementFilter@d1d6c5, org.springframework.security.web.access.ExceptionTranslationFilter@48b30]
+2019-12-19 11:16:14.938  WARN 37916 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2019-12-19 11:16:14.939  WARN 37916 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-19 11:16:14.939  INFO 37916 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-19 11:16:15.123  INFO 37916 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 11:16:16.868  WARN 37916 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-19 11:16:16.966  INFO 37916 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-12-19 11:16:17.027  INFO 37916 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-12-19 11:16:17.027  INFO 37916 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-12-19 11:16:17.035  INFO 37916 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1576725377033 with initial instances count: 0
+2019-12-19 11:16:17.093  INFO 37916 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-12-19 11:16:17.096  INFO 37916 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://yedp:5022ydp@ezmmm.com:9000/eureka/]
+2019-12-19 11:16:17.996  INFO 37916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-12-19 11:16:17.996  INFO 37916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-12-19 11:16:17.997  INFO 37916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-12-19 11:16:17.997  INFO 37916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-12-19 11:16:18.194  INFO 37916 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://yedp:5022ydp@ezmmm.com:9000/eureka/
+2019-12-19 11:16:18.205  INFO 37916 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-12-19 11:16:18.206  INFO 37916 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-12-19 11:16:18.230  INFO 37916 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-19 11:16:18.353  INFO 37916 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UNKNOWN with eureka with status UP
+2019-12-19 11:16:18.360  INFO 37916 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-12-19 11:16:18.361  INFO 37916 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-12-19 11:16:18.362  INFO 37916 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-12-19 11:16:18.472  INFO 37916 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-12-19 11:16:18.472  INFO 37916 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-12-19 11:16:18.473  INFO 37916 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-12-19 11:16:18.473  INFO 37916 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-12-19 11:16:18.473  INFO 37916 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-12-19 11:16:18.482  INFO 37916 --- [Thread-11] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-12-19 11:16:18.506  INFO 37916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-12-19 11:16:18.507  INFO 37916 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2019-12-19 11:16:19.678  INFO 37916 --- [main] com.ydp.ez.eureka.EzEurekaApplication    : Started EzEurekaApplication in 13.515 seconds (JVM running for 14.978)
+2019-12-19 11:17:18.476  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:18:18.478  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:19:18.479  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:20:18.481  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:21:18.482  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:22:18.484  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:23:18.486  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:24:18.487  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:25:18.489  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:26:18.491  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:27:18.492  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:28:18.494  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:29:18.496  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:30:18.498  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2019-12-19 11:31:18.223  INFO 37916 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2019-12-19 11:31:18.500  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:32:18.501  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:33:18.502  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:34:18.504  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-12-19 11:35:18.505  INFO 37916 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2019-12-19 11:35:21.880  INFO 37916 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UNKNOWN with eureka with status DOWN
+2019-12-19 11:35:21.883  INFO 37916 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-12-19 11:35:21.885  INFO 37916 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-12-19 11:35:21.889  INFO 37916 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-19 11:35:21.892  INFO 37916 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-12-19 11:35:21.892  INFO 37916 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

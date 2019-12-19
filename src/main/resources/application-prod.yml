@@ -1,6 +1,6 @@
 #test 测试环境
 project:
-  name: dev
+  name: prod
 
 server:
   port: 9000
@@ -14,13 +14,14 @@ eureka:
     #是否充eureka服务上获取注册信息
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://yedp:5022ydp@localhost:9000/eureka/
+      defaultZone: http://yedp:5022ydp@ezmmm.com:9000/eureka/
 
 spring:
   security:
     user:
       name: yedp
       password: 5022ydp
+
 
 
 logging:
